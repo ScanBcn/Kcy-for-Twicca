@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:padding="10dip" >
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/config_txt_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/not_logged_in"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/config_txt_titulo"
+            android:layout_below="@+id/config_txt_titulo"
+            android:layout_marginTop="14dp"
+            android:text="@string/user_"
+            android:textAppearance="?android:attr/textAppearanceMedium" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/config_edit_usuario"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/config_txt_titulo"
+            android:layout_below="@+id/TextView01"
+            android:hint="@string/user_hint" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/config_txt_titulo"
+            android:layout_below="@+id/config_edit_usuario"
+            android:text="@string/key_"
+            android:textAppearance="?android:attr/textAppearanceMedium" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/config_edit_key"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/config_txt_titulo"
+            android:layout_below="@+id/textView2"
+            android:hint="@string/key_hint"
+            android:inputType="textNoSuggestions|textVisiblePassword" >
+        </EditText>
+
+        <Button
+            android:id="@+id/config_bt_guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/config_edit_key"
+            android:layout_marginTop="16dp"
+            android:text="@string/save" >
+        </Button>
+    </RelativeLayout>
+
+</ScrollView>

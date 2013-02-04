@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="10dip"
+    android:paddingTop="10dip" >
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_marginRight="10dip" >
+    </ProgressBar>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/shorting_links"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFCCCCCC" >
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/trans_bt_cancel"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_marginLeft="10dip"
+        android:contentDescription="@string/cancel"
+        android:src="@drawable/ic_menu_close_clear_cancel" />
+
+</LinearLayout>

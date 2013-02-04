@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kcy for Twicca</string>
+    <string name="short_command">Shorten with Kcy.me</string>
+    <string name="not_logged_in">You must configure your user and key in order to use Karmacracy.com</string>
+    <string name="user_">User:</string>
+    <string name="user_hint">Your user from karmacracy.com</string>
+    <string name="key_">Key:</string>
+    <string name="key_hint">Thirth party applications key</string>
+    <string name="save">Save</string>
+    <string name="shorting_links">Shortening links</string>
+    <string name="configure_now">Configure now</string>
+    <string name="cancel">Cancel</string>
+</resources>
